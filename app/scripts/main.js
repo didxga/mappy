@@ -15,6 +15,16 @@ require.config({
         },
         handlebars: {
             exports: 'Handlebars'
+        },
+        bowerjvectormap: {
+            deps: [
+                'jquery'
+            ]
+        },
+        jvectormapworlden: {
+            deps: [
+                'bowerjvectormap'
+            ]
         }
     },
     paths: {
@@ -26,7 +36,8 @@ require.config({
         'requirejs-text': '../bower_components/requirejs-text/text',
         requirejs: '../bower_components/requirejs/require',
         'handlebars.runtime': '../bower_components/handlebars/handlebars.runtime',
-        'bower-jvectormap': '../bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.min'
+        'bowerjvectormap': '../bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.min',
+        'jvectormapworlden': '../bower_components/bower-jvectormap/jquery-jvectormap-world-mill-en'
     }
 });
 
