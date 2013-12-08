@@ -72,6 +72,7 @@ module.exports = function (grunt) {
             },
             livereload: {
                 options: {
+                    keepalive: true,
                     middleware: function (connect) {
                         return [
                             lrSnippet,
@@ -96,6 +97,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 options: {
+                    keepalive: true,
                     middleware: function (connect) {
                         return [
                             mountFolder(connect, yeomanConfig.dist)
@@ -331,7 +333,7 @@ module.exports = function (grunt) {
         'uglify',
         'copy',
         'rev',
-        'usemin'
+        'usemin',
     ]);
 
     grunt.registerTask('default', [
@@ -339,4 +341,6 @@ module.exports = function (grunt) {
         'test',
         'build'
     ]);
+
+    grunt.loadNpmTasks('grunt-bower-requirejs');
 };
