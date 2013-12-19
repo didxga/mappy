@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bdd222c-41d9-4c85-a91c-bc31e035cc5a" name="Default" comment="added bells and whistles">
+    <list default="true" id="5bdd222c-41d9-4c85-a91c-bc31e035cc5a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/mapUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mapdata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/views/worldmap.js" afterPath="$PROJECT_DIR$/app/scripts/views/worldmap.js" />
     </list>
@@ -29,7 +33,16 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="12" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.0" vertical-offset="1329" max-vertical-offset="7392">
+            <state line="72" column="12" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.0" vertical-offset="1266" max-vertical-offset="7392">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapdata.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mapdata.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
               <folding />
             </state>
           </provider>
@@ -38,7 +51,16 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="54" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1155">
+            <state line="38" column="92" selection-start="1146" selection-end="1173" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1155">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-jvectormap-1.2.2.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="551" selection-start="33323" selection-end="33323" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="273">
               <folding />
             </state>
           </provider>
@@ -47,19 +69,26 @@
       <file leaf-file-name="worldmap.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/routes/worldmap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="10" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+            <state line="9" column="49" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="546">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="worldmap.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="worldmap.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/views/worldmap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="27" selection-start="637" selection-end="648" vertical-scroll-proportion="0.4056604" vertical-offset="204" max-vertical-offset="903">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="12" column="17" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapUtils.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/mapUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="41" selection-start="11143" selection-end="11143" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="2331">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,7 +96,7 @@
       <file leaf-file-name="jquery-jvectormap-world-mill-en.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/bower_components/bower-jvectormap/jquery-jvectormap-world-mill-en.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+            <state line="0" column="91" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
               <folding />
             </state>
           </provider>
@@ -76,10 +105,8 @@
       <file leaf-file-name="worldmap.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/models/worldmap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="10" column="15" selection-start="184" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="462">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +114,7 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="242" selection-end="252" vertical-scroll-proportion="-2.304878" vertical-offset="0" max-vertical-offset="819">
+            <state line="9" column="29" selection-start="242" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="819">
               <folding />
             </state>
           </provider>
@@ -96,7 +123,7 @@
       <file leaf-file-name="worldmap.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/templates/worldmap.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
+            <state line="2" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="168">
               <folding />
             </state>
           </provider>
@@ -105,7 +132,43 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1092">
+            <state line="22" column="20" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="1071">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="23" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/history/scripts/uncompressed/history.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="41" selection-start="905" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="43050">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/history/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="42" selection-start="49" selection-end="49" vertical-scroll-proportion="0.13861386" vertical-offset="0" max-vertical-offset="606">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="native.history.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/history/scripts/bundled/html4+html5/native.history.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
               <folding />
             </state>
           </provider>
@@ -139,15 +202,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/scripts/worldmapView.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/scripts/routes/worldmap.js" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/bower_components/bower-jvectormap/jquery-jvectormap-world-mill-en.js" />
-        <option value="$PROJECT_DIR$/app/scripts/views/worldmap.js" />
+        <option value="$PROJECT_DIR$/dist/mapdata.json" />
+        <option value="$PROJECT_DIR$/app/scripts/countrycode-latlong.js" />
+        <option value="$PROJECT_DIR$/app/scripts/maputils.js" />
         <option value="$PROJECT_DIR$/app/scripts/models/worldmap.js" />
+        <option value="$PROJECT_DIR$/app/scripts/views/worldmap.js" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/mapUtils.js" />
+        <option value="$PROJECT_DIR$/app/mapdata.json" />
+        <option value="$PROJECT_DIR$/app/test.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/bower.json" />
       </list>
     </option>
   </component>
@@ -212,6 +281,150 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="history" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="history" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="history" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundled-uncompressed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="history" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundled-uncompressed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html4+html5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mappy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".tmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -223,8 +436,26 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\nCrazer\mappy\app\bower_components\bower-jvectormap" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\nCrazer\mappy\app" />
+    </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -233,14 +464,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -288,7 +511,11 @@
       <created>1386513716064</created>
       <updated>1386513716064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added bells and whistles">
+      <created>1386575196791</created>
+      <updated>1386575196791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -296,10 +523,10 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26415095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26415095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17448603" sideWeight="0.7358491" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17870322" sideWeight="0.7358491" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -322,38 +549,64 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added bells and whistles" />
     <MESSAGE value="added more bells and whistles" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more bells and whistles" />
+    <MESSAGE value="added bells and whistles" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bells and whistles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/bower-jvectormap/jquery-jvectormap-1.2.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="260" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="441">
+        <state line="7" column="551" selection-start="33323" selection-end="33323" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="273">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="819">
+        <state line="38" column="92" selection-start="1146" selection-end="1173" vertical-scroll-proportion="0.0" vertical-offset="519" max-vertical-offset="1155">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/templates/worldmap.hbs">
+    <entry file="file://$PROJECT_DIR$/app/scripts/routes/worldmap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="168">
+        <state line="9" column="49" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/bower-jvectormap/jquery-jvectormap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="25" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.67636985" vertical-offset="424" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mapdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/mapUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="41" selection-start="11143" selection-end="11143" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="2331">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1092">
+        <state line="22" column="20" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="462">
           <folding />
         </state>
       </provider>
@@ -365,84 +618,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/templates/worldmap.hbs">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/history/scripts/uncompressed/history.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+        <state line="25" column="41" selection-start="905" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="43050">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/history/demo/chrome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="1092">
+        <state line="9" column="26" selection-start="669" selection-end="669" vertical-scroll-proportion="-0.20404722" vertical-offset="310" max-vertical-offset="903" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/history/scripts/bundled/html4+html5/native.history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/history/scripts/bundled-uncompressed/html4+html5/native.history.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="24" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="266" selection-end="276" vertical-scroll-proportion="0.38118812" vertical-offset="0" max-vertical-offset="606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="54" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/bower-jvectormap/jquery-jvectormap-world-mill-en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/routes/worldmap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/models/worldmap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+        <state line="2922" column="35" selection-start="78853" selection-end="78853" vertical-scroll-proportion="-0.85714287" vertical-offset="61896" max-vertical-offset="70161">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/history/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="242" selection-end="252" vertical-scroll-proportion="-2.304878" vertical-offset="0" max-vertical-offset="819">
+        <state line="4" column="42" selection-start="49" selection-end="49" vertical-scroll-proportion="0.13861386" vertical-offset="0" max-vertical-offset="606">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="12" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.0" vertical-offset="1329" max-vertical-offset="7392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/views/worldmap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="637" selection-end="648" vertical-scroll-proportion="0.4056604" vertical-offset="204" max-vertical-offset="903">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
